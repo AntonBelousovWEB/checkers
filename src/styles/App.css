@@ -1,0 +1,48 @@
+.container {
+    max-width: 1200px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+input[type=text] {
+    padding: 5px;
+    border: 1px solid #000;
+    max-width: 300px;
+}
+
+.auth_forms {
+    border: 1px solid #000;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 30px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;   
+}
+
+.palayer_form {
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.file_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.start_game {
+    padding: 10px 20px;
+    background-color: #5cad00;
+}
+
+.table_result {
+    border: 1px solid #000;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 30px;
+}
